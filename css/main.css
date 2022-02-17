@@ -1,0 +1,20 @@
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 55px 1fr;
+  gap: 10px;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: hotpink;
+  grid-row-end: span 2;
+}
+
+.header {
+  background-color: green;
+}
+
+.content {
+  background-color: honeydew;
+}
